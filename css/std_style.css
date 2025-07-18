@@ -1,0 +1,177 @@
+/*---------------------body---------------------------------------------*/
+body {
+          	color: #333;							/*	文字色			*/
+		font-weight: lighter;							/* フォントの太さ	*/
+		font-size: 9pt;									/* フォントサイズ	*/
+		font-family: Verdana,'Osaka';					/* フォントセット	*/
+		text-align: center;								/* ページ全体の中央寄せ */
+	}
+/*--------------------ページ全体に渡る文字設定--------------------------*/
+* {
+		font-weight: lighter;
+		font-size: 9pt;
+		font-family: Verdana,'Osaka';
+/*		color:#333;                */
+		line-height: 14pt;
+	}
+
+/************************************************************************/
+/*																		*/
+/*	h		:	見出し													*/
+/*	div 	: 	ひとかたまりとして扱うための定義						*/
+/*	span 	: 	インラインの定義										*/
+/*	p		:	段落													*/
+/*																		*/
+/************************************************************************/
+
+/*-----------------ページ全体中央寄せdiv--------------------------------*/
+div#center {
+		width: 766px;							/* 177px + 589px	*/
+		background-color:#FFFFFF;
+		margin : 0px auto;
+		text-align: center;								/* ページ全体の中央寄せ */
+	}
+
+div#center2{
+		width: 766px;							/* 177px + 589px	*/
+		background-color:#FFFFFF;
+		margin : 0px;
+		text-align: center;								/* ページ全体の中央寄せ */
+	}
+
+div#upper_inf {
+		width: 760px;							/* 7660px	*/
+		text-align:right;
+		margin: 5px 6px 0px -3px;							/* TOP BAR からの位置 */
+		font-size: 8pt;
+	}
+
+div#title {
+		width: 760px;							/* 766px	*/
+		margin: 0px 3px;							/* TOP BAR からの位置 */
+	}
+div#menu {
+		width: 760px;							/* 766px	*/
+		margin: 0px 3px;							/* TOP BAR からの位置 */
+	}
+div#cts {
+		margin: 0px;							/* TOP BAR からの位置 */
+		padding: 5px 5px 50px 5px;
+	}
+/*-----------------メニューdiv------------------------------------------*/
+div#left {
+		margin: 0px;							/* TOP BAR からの位置 */
+		padding: 0px 0px 50px 0px;
+	}
+	
+div#right {
+		margin: 0px;
+		padding: 0px 0px 50px 0px;
+	}
+/*-----------------リンク-----------------------------------------------*/
+A:LINK			{ COLOR: #69c; TEXT-DECORATION: NONE }
+A:VISITED		{ COLOR: #c69; TEXT-DECORATION: NONE }
+A:ACTIVE		{ COLOR: #f09; TEXT-DECORATION: NONE }
+
+DIV#right A:LINK {COLOR: #69c; TEXT-DECORATION: NONE}
+DIV#right A:VISITED {COLOR: #c69; TEXT-DECORATION: NONE}
+DIV#right A:HOVER {COLOR: #f09; TEXT-DECORATION: UNDERLINE}
+
+/*---------------表組内の単語クラス-------------------------------------*/
+.words {
+		text-align:left;
+		text-indent:1em;							/* 字下げ一文字分 	*/
+	}
+
+/*-----------------説明文クラス-----------------------------------------*/
+.expn {
+		line-height: 14pt;							/* 行間14pt分		*/
+		text-align:left;
+		text-indent:1em;
+		margin:10px 39px;
+	}
+.expn_no_idt {
+		line-height: 14pt;							/* 行間14pt分		*/
+		text-align:left;
+		margin:10px 39px;
+	}
+.expn_s {
+	line-height: 14pt;
+	text-align:left;
+	font-size: 8pt;
+	padding: 5px 7px 5px 7px;
+	}
+
+.img {
+	line-height: 14pt;
+	text-align:left;
+	font-size: 8pt;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	}
+
+.expn_sub {
+	text-indent:3em;
+	font-size: 8pt;
+	}
+.expn_main {
+	text-indent:1em;
+	font-size: 9pt;
+	}
+.top_s {
+		font-size: 8pt;
+	}
+
+/*------------------------コメントクラス--------------------------------*/
+.comment_top {
+		line-height: 14pt;							/* 行間14pt分 		*/
+		text-indent:1em;							/* 字下げ一文字分 	*/
+		text-align:left;
+		margin: 10pt 0pt 15pt 0pt;
+	}
+/*------------------------罫線クラス------------------------------------*/
+.hr_style {
+		border-width: 1pt; 
+		border-style: dashed none;
+		border-color: #555;
+		margin: 0px 5px;
+	}
+.hr_style_100per {
+		color: #555;
+		margin: 0pt;
+	}
+
+.hr_style_80per {
+		color: #555;
+		margin: 0pt;
+		width:80%;
+	}
+
+/*------------------------強調クラス------------------------*/
+.attention {
+		color: #333399;
+		font-weight: bolder;
+	}
+
+/*---------------------topページコメントID------------------------------*/
+p#copyright {
+		line-height: 18pt;							/* 行間14pt分 		*/
+		text-align:center;
+		margin: 5px 0px 20px 0px;
+		font-size: 8pt;
+	}
+/*------------------------強調クラス------------------------*/
+.idt_mdl {
+		text-indent:2em;
+	}
+
+span#attention_top {
+		color: #333399;
+		font-weight: bolder;
+		font-size: 8pt;
+	}
+span#indent {
+		text-indent:1em;
+	}
